@@ -15,29 +15,45 @@
             </span>
         </div>
         <div id="keys">
-            <button id="key hover-red" onclick="clear()">C</button>
-            <button id="key hover-green" onclick="openBracket()">(</button>
-            <button id="key hover-green" onclick="closeBracket()">)</button>
-            <button id="key hover-red" onclick="deleteBack()">https://i.ibb.co/C2fVW9N/delete-back-2-line.png</button>
-            <button id="key hover-green" onclick="square()">x<super>2</super></button>
-            <button id="key hover-green" onclick="root()">&#8730;</button>
-            <button id="key hover-blue" onclick="divide()">&#247;</button>
-            <button id="key hover-blue" onclick="multiply()">&#215;</button>
-            <button id="key" onclick="pushNum(7)">7</button>
-            <button id="key" onclick="pushNum(8)">8</button>
-            <button id="key" onclick="pushNum(9)">9</button>
-            <button id="key hover-blue" onclick="minus()">-</button>
-            <button id="key" onclick="pushNum(4)">4</button>
+            <div id="row">
+                <button id="key hover-red" onclick="clear()">C</button>
+                <button id="key hover-green" onclick="openBracket()">(</button>
+                <button id="key hover-green" onclick="closeBracket()">)</button>
+                <button id="key hover-red" onclick="deleteBack()">https://i.ibb.co/C2fVW9N/delete-back-2-line.png</button>
+            </div>
+            <div id="row">
+                <button id="key hover-green" onclick="square()">x<super>2</super></button>
+                <button id="key hover-green" onclick="root()">&#8730;</button>
+                <button id="key hover-blue" onclick="divide()">&#247;</button>
+                <button id="key hover-blue" onclick="multiply()">&#215;</button>
+            </div>
+            <div id="row">
+                <button id="key" onclick="pushNum(7)">7</button>
+                <button id="key" onclick="pushNum(8)">8</button>
+                <button id="key" onclick="pushNum(9)">9</button>
+                <button id="key hover-blue" onclick="minus()">-</button>
+            </div>
+            <div id="row">
+                <div id="col">
+                    <button id="key" onclick="pushNum(4)">4</button>
+                    <button id="key" onclick="pushNum(1)">1</button>
+                </div>
+                <div id="col">
             <button id="key" onclick="pushNum(5)">5</button>
-            <button id="key" onclick="pushNum(6)">6</button>
-            <button id="key" onclick="pushNum(1)">1</button>
             <button id="key" onclick="pushNum(2)">2</button>
+                </div>
+                <div id="col">
+            <button id="key" onclick="pushNum(6)">6</button>
             <button id="key" onclick="pushNum(3)">3</button>
-            <button id="key hover-blue" onclick="add()">+</button>
+                </div>
+            <button id="key-big hover-blue" onclick="add()">+</button>
+            </div>
+                <div id="row">
             <button id="key" onclick="pushNum(00)">00</button>
             <button id="key" onclick="pushNum(0)">0</button>
-            <button id="key" onclick="dot()">.</button>.</button>
+            <button id="key" onclick="pushDot()">.</button>.</button>
             <button id="key hover-blue" onclick="sum()">=</button>
+                </div>
 
         </div>
     </div>
