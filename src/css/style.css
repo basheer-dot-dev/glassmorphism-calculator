@@ -2,3 +2,24 @@ body {
     -moz-user-select: none;
     user-select: none;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#display-text {
+    font-size: 18px;
+    border: none;
+    padding: 2px;
+}
